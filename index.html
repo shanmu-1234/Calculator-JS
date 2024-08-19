@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="Calculator">
+        <h1>CALCULATOR</h1>
+        <input type="button" value="c" onclick="ClearResult()">
+        <input type="text" id="result" readonly>
+        <input type="button" value="=" id="eql" onclick="calculate()"><br>
+        <input type="button" value="1" onclick="addNumber(1)">
+        <input type="button" value="2" onclick="addNumber(2)">
+        <input type="button" value="3" onclick="addNumber(3)"><br>
+        <input type="button" value="4" onclick="addNumber(4)">
+        <input type="button" value="5" onclick="addNumber(5)">
+        <input type="button" value="6" onclick="addNumber(6)"><br>
+        <input type="button" value="7" onclick="addNumber(7)">
+        <input type="button" value="8" onclick="addNumber(8)">
+        <input type="button" value="9" onclick="addNumber(9)"><br>
+        <input type="button" value="0" onclick="addNumber(0)">
+        <input type="button" value="+" onclick="operate('+')">
+        <input type="button" value="-" onclick="operate('-')"><br>
+        <input type="button" value="*" onclick="operate('*')"> 
+        <input type="button" value="/" onclick="operate('/')">
+        <input type="button" value="." onclick="addDecimal()">
+
+    </div>
+    <script src="/sample.js"></script>
+</body>
+</html>
+
